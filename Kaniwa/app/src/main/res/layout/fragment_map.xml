@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MapFragment"
+    android:id="@+id/mapfrag">
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<!--        Boton flotante de color azul lado derecho-->
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_margin="16dp"
+            android:contentDescription="PruebaFAB"
+            app:srcCompat="@drawable/ic_uv"/>
+
+<!--        Boton flotante para lista de rutas lado izquierdo-->
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/listaRutas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|left"
+            android:layout_margin="16dp"
+            android:contentDescription="PruebaFAB"
+            app:srcCompat="@drawable/ic_uv"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</FrameLayout>

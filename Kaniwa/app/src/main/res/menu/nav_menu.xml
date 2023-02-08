@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mapFragment"
+        android:title="Mapa"
+        android:icon="@drawable/iconomapa"/>
+    <item
+        android:id="@+id/costosFragment"
+        android:title="Costos de pasaje"
+        android:icon="@drawable/iconoprecios"/>
+    <item
+        android:id="@+id/FavoritasFragment"
+        android:title="Favoritos"
+        android:icon="@drawable/iconofavoritos"/>
+    <item
+        android:id="@+id/cerrar"
+        android:title="Cerrar sesión"
+        android:icon="@drawable/iconocerrarsesion"/>
+</menu>

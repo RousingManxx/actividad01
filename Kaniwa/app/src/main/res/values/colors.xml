@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="azul_UV">#18529D</color>
+    <color name="naranja_UV">#f08800</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gris">#CCCCCC</color>
+    <color name="gris_oscuro">#666666</color>
+    <color name="ATAZ">#26D151</color>
+    <color name="AMARILLO">#FFF200</color>
+    <color name="SUX1">#115BCA</color>
+    <color name="SUX2">#ACC1FF</color>
+</resources>
